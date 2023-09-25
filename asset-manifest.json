@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/key-creator/static/css/main.0d4eb72e.css",
+    "main.js": "/key-creator/static/js/main.7cd42081.js",
+    "static/js/787.32c85577.chunk.js": "/key-creator/static/js/787.32c85577.chunk.js",
+    "static/media/app-background.jpg": "/key-creator/static/media/app-background.45b04b211655c59aee63.jpg",
+    "index.html": "/key-creator/index.html",
+    "main.0d4eb72e.css.map": "/key-creator/static/css/main.0d4eb72e.css.map",
+    "main.7cd42081.js.map": "/key-creator/static/js/main.7cd42081.js.map",
+    "787.32c85577.chunk.js.map": "/key-creator/static/js/787.32c85577.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d4eb72e.css",
+    "static/js/main.7cd42081.js"
+  ]
+}
