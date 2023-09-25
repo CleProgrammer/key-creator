@@ -1,38 +1,133 @@
 .App {
-  text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./images/app-background.jpg');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.key-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    height: 35vh;
+    background-color: rgb(0, 23, 85);
+    border: 5px solid white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.key-container .title-key {
+    height: 20%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:  white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.key-container .generate-key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 15%;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 23, 85);
+    cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.key-container .key-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 30%;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: white;
+    color: rgb(0, 23, 85);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/*MOBILE*/
+@media (max-width: 480px) {
+    .key-container {
+        width: 92vw;
+        height: 25vh;
+        border: 3px solid white;
+    }
+    
+    .key-container .title-key {
+        height: 20%;
+        font-size: 30px;
+    }
+    
+    .key-container .generate-key {
+        width: 43%;
+        height: 20%;
+        font-size: 23px;
+    }
+    
+    .key-container .key-result {
+        width: 85%;
+        height: 30%;
+        font-size: 35px;
+    }
+}
+
+
+/*TABLET*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .key-container {
+        width: 92vw;
+        height: 28vh;
+    }
+    
+    .key-container .title-key {
+        height: 20%;
+        font-size: 50px;
+    }
+    
+    .key-container .generate-key {
+        width: 35%;
+        height: 20%;
+        font-size: 25px;
+    }
+    
+    .key-container .key-result {
+        width: 85%;
+        height: 30%;
+        font-size: 35px;
+    }
+}
+
+
+/*EXTRA SMALL DEVICES*/
+@media (min-width: 481px) and (max-width: 767px) {
+    .key-container {
+        width: 92vw;
+        height: 28vh;
+    }
+    
+    .key-container .title-key {
+        height: 20%;
+        font-size: 50px;
+    }
+    
+    .key-container .generate-key {
+        width: 35%;
+        height: 20%;
+        font-size: 25px;
+    }
+    
+    .key-container .key-result {
+        width: 85%;
+        height: 30%;
+        font-size: 35px;
+    }
 }
