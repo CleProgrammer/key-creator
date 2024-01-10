@@ -5,11 +5,15 @@ function App() {
   const c = (cl) => document.querySelector(cl)
 
   const [saveKey, setsaveKey] = useState([])
-
+         
   let keyOptions = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
   let keyOptionsSpecial = '@#$%&'
   let keyOptionsNumber = '0123456789'
   let key = ''
+
+
+  //OPERADOR TERNÁRIO
+  //1 > 0 ? console.log('1 é maior que 0') : console.log( '1 não é maior que 0' )
 
   function calcular() {
       key = ''
